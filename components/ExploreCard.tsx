@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import styles from "../styles";
-import { fadeIn } from "../utils/motion";
+import { fadeIn } from "@/utils/motion";
 import headset from "../../metaverse/public/headset.svg";
 
 // We are getting this "id, imgUrl, title" props from "{...world} spread".
