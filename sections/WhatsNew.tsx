@@ -3,9 +3,9 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
-import { fadeIn, staggerContainer, planetVariants } from "../utils/motion";
+import { fadeIn, staggerContainer, planetVariants } from "@/utils/motion";
 import { TypingText, TitleText, NewFeatures } from "../components";
-import { newFeatures } from "../constants";
+import { newFeatures } from "@/constants";
 import whats_new from "../../metaverse/public/whats-new.png";
 
 const WhatsNew = () => (
