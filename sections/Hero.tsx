@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import { slideIn, staggerContainer, textVariant } from "@/utils/motion";
 import stamp from "../../metaverse/public/stamp.png";
 import cover from "../../metaverse/public/cover.png";
 

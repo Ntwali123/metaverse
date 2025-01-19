@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
-import { fadeIn, staggerContainer } from "../utils/motion";
-import { TypingText, TitleText } from "../components";
+import { fadeIn, staggerContainer } from "@/utils/motion";
+import { TypingText, TitleText } from "@/components/CustomTexts";
 import fullmap from "../../metaverse/public/fullmap.svg";
 
 const World = () => (

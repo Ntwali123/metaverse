@@ -4,9 +4,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn, staggerContainer, planetVariants } from "@/utils/motion";
-import { TypingText, TitleText, NewFeatures } from "../components";
+import { TypingText, TitleText } from "@/components/CustomTexts";
 import { newFeatures } from "@/constants";
 import whats_new from "../../metaverse/public/whats-new.png";
+import NewFeatures from "@/components/NewFeatures";
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>

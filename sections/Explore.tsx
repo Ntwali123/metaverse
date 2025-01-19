@@ -3,7 +3,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { staggerContainer } from "@/utils/motion";
-import { TypingText, ExploreCard, TitleText } from "@/components";
+import { TypingText, TitleText } from "@/components/CustomTexts";
+import ExploreCard from "@/components/ExploreCard";
 import { exploreWorlds } from "@/constants";
 
 const Explore = () => {

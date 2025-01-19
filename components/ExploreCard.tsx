@@ -6,6 +6,7 @@ import { fadeIn } from "@/utils/motion";
 import headset from "../../metaverse/public/headset.svg";
 
 // We are getting this "id, imgUrl, title" props from "{...world} spread".
+// @ts-ignore
 const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}

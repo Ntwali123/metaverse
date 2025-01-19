@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import planet9 from "../../metaverse/public/planet-09.png";
 import stamp from "../../metaverse/public/stamp.png";
-import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
+import { fadeIn, staggerContainer, zoomIn } from "@/utils/motion";
 
 const Feedback = () => (
     <section className={`${styles.paddings} relative z-10`}>

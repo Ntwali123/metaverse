@@ -3,8 +3,9 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { staggerContainer } from "@/utils/motion";
-import { TypingText, TitleText, InsightCard } from "@/components";
+import { TypingText, TitleText } from "@/components/CustomTexts";
 import { insights } from "@/constants";
+import InsightCard from "@/components/InsightCard"
 
 const Insights = () => (
   <section className={`${styles.paddings} relative z-10`}>

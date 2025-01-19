@@ -4,9 +4,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "@/styles";
 import { fadeIn, staggerContainer, planetVariants } from "@/utils/motion";
-import { TypingText, TitleText, StartSteps } from "@/components";
+import { TypingText, TitleText } from "@/components/CustomTexts";
 import { startingFeatures } from "@/constants";
 import getStarted from "../../metaverse/public/get-started.png";
+import StartSteps from "@/components/StartSteps"
 
 const GetStarted = () => (
     <section className={`${styles.paddings} relative z-10`}>

@@ -9,6 +9,7 @@ import Insights from "@/sections/Insights";
 import Feedback from "@/sections/Feedback";
 // import Navbar from "@/components/Navbar";
 
+
 export default function Home() {
   return (
    <>
